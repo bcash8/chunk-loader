@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --env-file=.env --experimental-strip-types --watch src/index.ts"
+    "dev": "node --env-file=.env --experimental-strip-types --watch src/index.ts",
+    "tsc": "tsc"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +21,8 @@
     "tsx": "^4.19.4",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.32.0"
+  },
+  "dependencies": {
+    "rcon-client": "^4.2.5"
   }
 }
